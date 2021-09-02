@@ -62,12 +62,12 @@ impl Pattern for StripePattern {
         Box::new((*self).clone())
     }
 
-    fn as_any(&self) -> &dyn Any {
-        self
-    }
-
     fn box_eq(&self, other: &dyn Any) -> bool {
         other.downcast_ref::<Self>().map_or(false, |a| self == a)
+    }
+
+    fn as_any(&self) -> &dyn Any {
+        self
     }
 
     fn transformation(&self) -> Matrix {
@@ -121,12 +121,12 @@ impl Pattern for GradientPattern {
         Box::new((*self).clone())
     }
 
-    fn as_any(&self) -> &dyn Any {
-        self
-    }
-
     fn box_eq(&self, other: &dyn Any) -> bool {
         other.downcast_ref::<Self>().map_or(false, |a| self == a)
+    }
+
+    fn as_any(&self) -> &dyn Any {
+        self
     }
 
     fn transformation(&self) -> Matrix {
