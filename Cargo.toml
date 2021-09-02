@@ -1,5 +1,5 @@
 [package]
-name = "Ray_Tracing_Rust"
+name = "rustracer"
 version = "0.1.0"
 edition = "2018"
 

@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "Ray_Tracing_Rust"
-version = "0.1.0"
-dependencies = [
- "png",
-]
-
-[[package]]
 name = "adler32"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -92,4 +85,11 @@ dependencies = [
  "deflate",
  "inflate",
  "num-iter",
+]
+
+[[package]]
+name = "rustracer"
+version = "0.1.0"
+dependencies = [
+ "png",
 ]
