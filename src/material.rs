@@ -84,7 +84,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_eye_between_light_and_surface() {
+    fn lighting_eye_between_light_and_surface() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
@@ -97,7 +97,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_eye_between_light_and_surface_eye_offset_45_degrees() {
+    fn lighting_eye_between_light_and_surface_eye_offset_45_degrees() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
@@ -111,7 +111,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_eye_opposite_surface_light_offset_45_degrees() {
+    fn lighting_eye_opposite_surface_light_offset_45_degrees() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
@@ -124,7 +124,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_eye_in_path_of_reflection_vector() {
+    fn lighting_eye_in_path_of_reflection_vector() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
@@ -138,7 +138,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_light_behind_surface() {
+    fn lighting_light_behind_surface() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
@@ -151,7 +151,7 @@ mod tests {
     }
 
     #[test]
-    fn lighing_with_surface_in_shadow() {
+    fn lighting_with_surface_in_shadow() {
         let object = Sphere::new(None, None);
         let m = Material::default();
         let position = ORIGO;
